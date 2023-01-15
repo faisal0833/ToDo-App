@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoApp 2023 - Using HTML, CSS, JavaScript</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/ae385a223f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="app-area">
+      <h1>To Do App 2023</h1>
+      <div class="add-task-area">
+        <form id="add-task">
+          <div class="form-group">
+            <input type="text" placeholder="Your Task Name.." id="task"/>
+            <button type="submit">Add Task</button>
+          </div>
+          <div id="error-div"></div>
+        </form>
+      </div>
+      <div class="tasks-area">
+        <h2>My Task List</h2>
+        <div id="all-tasks">
+          <!-- <div class="single-task">
+            <input type="text" value="My task one" readonly>
+            <button class="edit-task">Edit</button>
+            <button class="complete-task">Complete</button>
+            <button class="delete-task">Delete</button>
+          </div> -->
+          <!-- <div class="single-task">
+            <input type="text" value="My task one" readonly>
+            <button class="edit-task">Edit</button>
+            <button class="complete-task">Complete</button>
+            <button class="delete-task">Delete</button>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- JS File -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
